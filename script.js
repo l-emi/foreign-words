@@ -1,12 +1,34 @@
 
 			
 var russianWords = [
-		// Russian, Korean, Spanish
-		    ['бабушка', '할머니, abuela'],
-	        ['почемучка', 'someone who asks "why?" a lot'],
-	        ['большой', '크, grande']
-	        
-	    ];
+    ['бабушка', '할머니, abuela'],
+    ['почемучка', 'una persona que dice "por qué?" todo el tiempo'],
+	['большой', '크, grande'],
+    ['красный', '빨간, rojo'],
+    ['фрикаделька', '고기 완자, albóndiga'],
+    ['медведь', '곰, oso'],
+    ['каша', '오트밀 죽, crema de avena']
+];
+
+var koreanWords = [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+];
+
+var spanishWords = [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+];
 
 $(document).ready(function randomize() {
 	var i = Math.floor(Math.random() * russianWords.length); //Random number
