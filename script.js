@@ -1,10 +1,10 @@
 
 			
-var words = [
+var russianWords = [
 		// Russian, Korean, Spanish
-		    ['бабушка', '할머니', 'abuela'],
-	        ['почему', '왜', 'por qué'],
-	        ['большой', '크', 'grande'],
+		    ['бабушка', '할머니, abuela'],
+	        ['почемучка', 'someone who asks "why?" a lot'],
+	        ['большой', '크, grande']
 	        
 	    ];
 
