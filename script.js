@@ -1,16 +1,21 @@
-var russianWords = ['бабушка', 'почемучка', 'красный', 'большой', 'фрикаделька', 'медведь', 'каша'],
-    koreanWords = ['하늘', '친구', '우유', '뚱뚱하다', '사진', '사람', '기다리다'],
-    spanishWords = ['madrugada', 'manzana', 'amarillo', 'cascabel', 'hechizo', 'anochecer', 'ojalá'];
 
+			
+var words = [
+		// Russian, Korean, Spanish
+		['бабушка', '할머니', 'abuela'],
+	        ['почему', '유', 'por qué'],
+	        ['большой', '크', 'grande'],
+	        // You can add here a word and its translation
+	    ];
 
-$("#ru-word").append(russianWords[randomize()]);
-$("#kr-word").append(koreanWords[randomize()]);
-$("#es-word").append(spanishWords[randomize()]);
+$(document).ready(function randomize() {
+	var i = Math.floor(Math.random() * words.length); //Random number
+	$("#ru-word").append(words[i][0]);
+	$("#kr-word").append(words[i][1]);
+	$("#es-word").append(words[i][2]);
 
-
-function randomize() {
-    return Math.floor(Math.random() * 6);
-}
-
-console.log(russianWords[randomize()]);
-
+	$('body').click(function(){
+		location.reload();
+	});
+	
+});
