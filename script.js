@@ -1,10 +1,12 @@
 
-			// Russian, Korean, Spanish
-var words = [['бабушка', '할머니', 'abuela'],
-			 ['почему', '유', 'por qué'],
-			 ['большой', '크', 'grande'],
-			 // You can add here a word and its translation
-			];
+			
+var words = [
+		// Russian, Korean, Spanish
+		['бабушка', '할머니', 'abuela'],
+	        ['почему', '유', 'por qué'],
+	        ['большой', '크', 'grande'],
+	        // You can add here a word and its translation
+	    ];
 
 $(document).ready(function randomize() {
 	var i = Math.floor(Math.random() * words.length); //Random number
