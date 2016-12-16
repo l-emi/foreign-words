@@ -1,29 +1,23 @@
-/* line 5, C:/Users/Lidiya/Desktop/comp/coding/sites/foreign/styles/style.scss */
 body, html {
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
   overflow: hidden; }
 
-/* line 12, C:/Users/Lidiya/Desktop/comp/coding/sites/foreign/styles/style.scss */
 .boxes {
   position: relative;
   height: 33.33333333vh;
   width: 100%; }
 
-/* line 18, C:/Users/Lidiya/Desktop/comp/coding/sites/foreign/styles/style.scss */
 #russian {
   background-color: #009FB7; }
 
-/* line 22, C:/Users/Lidiya/Desktop/comp/coding/sites/foreign/styles/style.scss */
 #spanish {
   background-color: #FE4A49; }
 
-/* line 26, C:/Users/Lidiya/Desktop/comp/coding/sites/foreign/styles/style.scss */
 #korean {
   background-color: #FED766; }
 
-/* line 30, C:/Users/Lidiya/Desktop/comp/coding/sites/foreign/styles/style.scss */
 .word-container {
   width: 50vw;
   height: 80%;
@@ -33,17 +27,25 @@ body, html {
   top: 10%;
   background: rgba(0, 0, 0, 0.15); }
 
-/* line 40, C:/Users/Lidiya/Desktop/comp/coding/sites/foreign/styles/style.scss */
 .word {
-  display: table-cell;
-  vertical-align: middle;
+  display: block;
   margin: 0;
-  height: 100%;
-  font-size: 6.5vw;
+  height: 60%;
+  padding-top: 5.5vh;
+  font-size: 6vw;
   font-weight: bold;
   text-align: center; }
 
-/* line 50, C:/Users/Lidiya/Desktop/comp/coding/sites/foreign/styles/style.scss */
+.definition {
+  display: block;
+  vertical-align: middle;
+  margin: 0 auto;
+  height: 40%;
+  padding-top: 2vh;
+  font-size: 2vw;
+  font-weight: bold;
+  text-align: center; }
+
 .flag {
   width: 5vw;
   font-size: 2.5vw;

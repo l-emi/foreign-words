@@ -38,11 +38,22 @@ body, html {
 }
 
 .word {
-    display: table-cell;
-    vertical-align: middle;
+    display: block;
     margin: 0;
-    height: 100%;
-    font-size: 6.5vw;
+    height: 60%;
+    padding-top: 5.5vh;
+    font-size: 6vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+.definition {
+    display: block;
+    vertical-align: middle;
+    margin: 0 auto;
+    height: 40%;
+    padding-top: 2vh;
+    font-size: 2vw;
     font-weight: bold;
     text-align: center;
 }
